@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dhrubaraj Dey</title>
+</head>
+<body>
+    <header>
+        <img src="LOGO.png" id="logo" alt="logo">
+        <nav class="big">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li id="middle"><a href="https://github.com/TheRajHub">GITHUB</a></li>
+                <li><a href="https://www.linkedin.com/in/dhrubaraj-dey-a81152292/">LINKEDIN</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="mailto: dhruborajdey@gmail.com"><button id="email">Email</button></a>
+        </div>
+        <div class="text">
+            <i class="fa-solid fa-bars" id="bar" onclick="bar()"></i>
+        </div>
+        
+
+        
+    </header>
+    <nav class="sidebar">
+        
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="https://github.com/TheRajHub">GITHUB</a></li>
+            <li><a href="https://www.linkedin.com/in/dhrubaraj-dey-a81152292/">LINKEDIN</a></li>
+        </ul>
+        <i class="fa-solid fa-xmark text cross" onclick="cross()"></i>
+    </nav>
+
+    <main>
+        <div id="intro">
+            <div id="img"><img src="dp.jpg" alt="profile" id="profile"></div>
+            
+            <div id="wrapper">
+                <h1 class="text">Hi I'm Dhrubaraj</h1>
+                <p class="text">Highly skilled and versatile full-stack developer with a wide range of technologies. Equipped with 
+                    expertise in front-end development tools such as HTML, CSS, JavaScript (including frameworks like React), 
+                    and templating engines like EJS, coupled with backend proficiency in Node.js and Express.js. Possesses a 
+                    deep understanding of database management systems, particularly PostgreSQL. 
+                </p>
+            </div>
+            
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h1 id="project" class="text">Projects :</h1>
+        
+
+
+
+
+        <div id="card-box">
+                <div class="card text" id="two" onclick="navigateToUrl('https://blogging-website-production-eacb.up.railway.app/')">
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis similique necessitatibus quo numquam perspiciatis a sunt aspernatur! Incidunt dolores atque delectus temporibus quibusdam. Delectus reprehenderit soluta laborum odio voluptatem odit.</p>
+                    <h2>Blogging Website</h2>
+                </div>
+                <div class="card text" id="one" onclick="navigateToUrl('https://github.com/TheRajHub/Weather2.git')">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis similique necessitatibus quo numquam perspiciatis a sunt aspernatur! Incidunt dolores atque delectus temporibus quibusdam. Delectus reprehenderit soluta laborum odio voluptatem odit.</p>
+                    <h2>Weather Website</h2>
+                </div>
+            
+              
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div id="form">
+                <form class="text">
+                    <label for="name">NAME: </label>
+                    <input type="text" id="name" class="into" placeholder="Eg.: Jane Stone">
+                    <label for="subject">SUBJECT: </label>
+                    <input type="text" id="subject" class="into" placeholder="Eg.: Feedback">
+                    <label for="message">MESSAGE: </label>
+                    <input type="text" id="message" class="into" placeholder="Eg.: You may modify...">
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+            <div id="outro">
+                <h2 class="text">Let's Connect</h2>
+                <p class="text">If you have any suggestion, feedback, opportunity, or are interested in collaborating on a project, we would love to hear from you! Please feel free to reach out to us using the contact details provided below.</p>
+                <div class="social">
+                    <a><i class="fa-brands fa-github text"></i>
+                    </a>
+
+
+                    <a href=""><i class="fa-brands fa-linkedin text"></i>
+                    </a>
+
+
+
+                    <a href=""><i class="fa-brands fa-instagram text"></i>
+                    </a>
+
+
+                    <a href=""><i class="fa-regular fa-envelope text"></i>
+                    </a>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+            <div id="copyright">
+                <h4 class="text">Copyright © Dhrubaraj Dey. All rights reserved.</h4>
+                <h5 class="text">Other Links :-</h5>
+                <ul>
+                    <li class="text"><a><i class="fa-solid fa-arrow-right text"></i> Privacy Policy</a></li>
+                    <li class="text"><a><i class="fa-solid fa-arrow-right text"></i> Repo Inspector</a></li>
+                    <li class="text"><a><i class="fa-solid fa-arrow-right text"></i> Contact Me</a></li>
+                    <li class="text"><a><i class="fa-solid fa-arrow-right text"></i> Copyright</a></li>
+                    <li class="text"><a><i class="fa-solid fa-arrow-right text"></i> About</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="./index.js">
+        
+    </script>
+</body>
+</html>
