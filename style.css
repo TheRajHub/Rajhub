@@ -297,16 +297,7 @@ label{
     display: none;
 }
 
-@media all and (max-width:500px) {
-    .big{
-        display: none;
-    }
-    #bar{
-        display: inline-block;
-    }
-    
-    
-}
+
 
 
 .cross{
@@ -343,7 +334,7 @@ label{
     justify-content: flex-end;
     padding: 1.4rem;
     height: 57vh;
-    width: 35%;
+    width: 45%;
     transition: box-shadow 0.9s;
     color: black;
 }
@@ -387,4 +378,25 @@ label{
     font-size: 3rem;
     margin-top: 20vh;
     margin-bottom: 3vh;
+}
+@media all and (max-width:500px) {
+    .big{
+        display: none;
+    }
+    #bar{
+        display: inline-block;
+    }
+    #card-box{
+        padding: 1rem;
+    }
+    .card{
+
+        width: 100%;
+    }
+    .card:hover{
+
+        box-shadow: 2.5px 2.5px 11px 4px rgba(255, 78, 78, 0.911);
+    }
+    
+    
 }
