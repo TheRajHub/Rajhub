@@ -356,7 +356,7 @@ label{
     background-size: cover;
 }
 #three{
-    background-image: url("a.avif");
+    background-image: url("vid.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -399,4 +399,11 @@ label{
     }
     
     
+}
+
+#five{
+    background-image: url("cer.png");
+    background-position:left;
+    background-size:43vw;
+    border-radius: 0px;
 }
